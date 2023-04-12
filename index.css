@@ -1,0 +1,122 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(36, 37, 58);
+}
+
+.foto{
+    width: 80px;
+    border-radius: 60px;
+}
+
+#exit{
+    width: 20px;
+    border-radius: 10px;
+}
+
+.exit{
+    margin-left: 95%;
+    margin-top: -10%;
+}
+
+.cajon{
+    background-color:rgb(51, 52, 83) ;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    background-color:rgb(85, 86, 113) ;
+    width: 80%;
+    height: 60px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+#quepasa{
+    margin-left: 20px;
+}
+
+.modal, .publicacion{
+    z-index: 1;
+    background-color:rgb(51, 52, 83) ;
+    padding: 20px;
+    border-radius: 20px;
+    height: 300px;
+    width: 600px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.arriba{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.centar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.persona{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: left;
+    align-items: center;
+
+}
+
+textarea{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+}
+
+.ocultar{
+    display: none;
+}
+
+#publicar, .activarButton{
+    background-color: rgb(82, 108, 255);
+
+    width: 600px;
+    height: 40px;
+    border: transparent;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+}
+.deButton{
+    background-color: rgb(182, 182, 182) !important;
+}
+
+#foto1{
+    margin-left: -60%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.fotos{
+    width: 40px;
+    border-radius: 60px;
+}
+
+#nombre{
+    margin-left: 10px;
+}

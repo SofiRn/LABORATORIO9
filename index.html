@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="centrar">
+      <div class="cajon">
+        <img
+          class="foto"
+          src="https://i.pinimg.com/736x/b5/49/41/b5494197b2d462c940f88988b203d290.jpg"
+          alt="foto-perfil"
+        />
+        <div class="texto" onclick="mostrarModal()">
+          <p id="quepasa">¿Que estás pensando, Sofía?</p>
+        </div>
+      </div>
+
+      <div class="container">
+      <div class="modal" id="modal" >
+        <div class="arriba">
+
+          <div id="crear">
+            <h2>Crear publicación</h2>
+          </div>
+
+        </div>
+        <div class="exit">
+            <img
+              id="exit" onclick="ocultarModal()" src="https://us.123rf.com/450wm/serz72/serz721508/serz72150800088/44510545-eliminar-signo-blanca-de-trav%C3%A9s-registrarse-en-un-fondo-negro-se%C3%B1al-x-una-se%C3%B1al-de-negaci%C3%B3n-para.jpg"
+              alt="exit"
+            />
+          </div>
+        <div class="persona">
+          <img
+            class="fotos" id="foto1"
+            src="https://i.pinimg.com/736x/b5/49/41/b5494197b2d462c940f88988b203d290.jpg"
+            alt="foto-perfil"
+          />
+          <h3 id="nombre">Sofía Romero</h3>
+        </div>
+        <div class="textarea">
+          <textarea id="escribir" cols="80" rows="8" placeholder="¿Que estás pensando, Sofía?" oninput="activarBoton()"></textarea>
+
+        </div>
+        <div class="button">
+          <button id="publicar" class="deButton">Publicar</button>
+        </div>
+      </div>
+    </div>
+<div class="container">
+      <div class="modal ocultar" id="board">
+
+
+
+
+
+      </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
